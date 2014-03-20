@@ -1,0 +1,10 @@
+.b-logo {
+  width: 75%;
+  max-width: 15em;
+  margin: auto;
+
+ @include media-ie($breakpoint-desktop) {
+   width: 50%;
+   max-width: 35em;
+ }
+} //.b-logo
