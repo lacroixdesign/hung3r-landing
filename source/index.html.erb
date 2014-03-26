@@ -7,7 +7,10 @@ title: "HUNG3R | Fashion for a Cause"
     <div class="s-welcome__content">
 
       <div class="b-logo">
-        <img class="image" src="<%= image_path 'logo.svg' %>" alt="<%= data.site.title %>">
+        <img class="image"
+             src="<%= image_path 'logo.svg' %>"
+             onerror="this.onerror=null; this.src='<%= image_path 'logo.png' %>'"
+             alt="<%= data.site.title %>">
       </div>
 
         <ul class="b-connect">
