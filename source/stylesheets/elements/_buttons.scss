@@ -76,6 +76,7 @@
 
 .btn-bright {
   @include btn($white, transparent, 1px);
+  text-transform: uppercase;
   &:hover { color: $orange; }
 }
 

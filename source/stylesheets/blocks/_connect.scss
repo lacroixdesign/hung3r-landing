@@ -4,10 +4,17 @@
   margin: 0;
 
   li {
+    @include transition (all 0.0625s ease);
     display: inline-block;
     margin-left: 1em;
     font-size: 2em;
     &:first-child { margin-left: 0; }
+
+    &:hover {
+      @include transform(scale(1.25));
+      color: $white;
+    }
+
   }
 
 } //.b-connect
