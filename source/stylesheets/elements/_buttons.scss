@@ -71,15 +71,15 @@
 } // @mixin btn
 
 .btn {
-  @include btn($black, transparent, 1px);
+  @include btn($black, transparent, 2px);
 }
 
 .btn-bright {
-  @include btn($white, transparent, 1px);
+  @include btn($white, transparent, 2px);
   text-transform: uppercase;
   &:hover { color: $orange; }
 }
 
 .btn-subtle {
-  @include btn($grey, transparent, 1px);
+  @include btn($grey, transparent, 2px);
 }
